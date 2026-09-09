@@ -6,7 +6,7 @@ import Head from './Head';
 function Contato() {
   return (
     <section className={`${styles.contato} animeLeft`}>
-      <Head />
+      <Head title="Contato" description="Entre em contato" />
       <img src={foto} alt="Maquina de escrever" />
 
       <div>
