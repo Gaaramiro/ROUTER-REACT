@@ -7,7 +7,7 @@ function Header() {
     <nav className={styles.header}>
       <ul>
         <li>
-          <NavLink className={styles.link} to="/">
+          <NavLink className={styles.link} to="/" end>
             Produtos
           </NavLink>
         </li>
