@@ -1,8 +1,10 @@
-.App{
+body{
   margin: 2rem;
-  display: flex;
-  flex-direction: column;
+
 }
+
+
+
 img{
   max-width: 100%;
   border-radius: .5rem;
@@ -19,6 +21,18 @@ ul{
 
 h1{
   font-size: 1.4rem;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  margin: 0 auto;
+  min-height: calc(100vh + 10rem);
+}
+
+.content{
+  flex: 1;
 }
 
 .animeLeft{

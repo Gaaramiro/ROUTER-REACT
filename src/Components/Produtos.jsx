@@ -12,7 +12,7 @@ function Produtos() {
   }, []);
   if (produtos === null) return null;
   return (
-    <section className={styles.produtos}>
+    <section className={`${styles.produtos} animeLeft`}>
       <Head title="Produtos" description="Produtos" />
       {produtos.map((produto) => (
         <Link to={`produto/${produto.id}`} key={produto.id}>

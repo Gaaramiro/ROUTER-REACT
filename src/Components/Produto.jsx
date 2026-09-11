@@ -38,8 +38,8 @@ function Produto() {
       </div>
       <div>
         <h2>{produto.nome}</h2>
-        <span>R$ {produto.preco}</span>
-        <p>{produto.descricao}</p>
+        <span className={styles.preco}>R$ {produto.preco}</span>
+        <p className={styles.descricao}>{produto.descricao}</p>
       </div>
     </section>
   );
