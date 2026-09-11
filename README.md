@@ -1,4 +1,5 @@
 # Produtos - React
+![Demonstração do projeto](./preview.gif)
 
 Projeto desenvolvido em React para praticar navegação entre páginas, rotas dinâmicas e consumo de API.
 
