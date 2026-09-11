@@ -1,16 +1,32 @@
-# React + Vite
+# Produtos - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido em React para praticar navegação entre páginas, rotas dinâmicas e consumo de API.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- JavaScript
+- React Router DOM
+- CSS
+- Vite
+- Fetch API
 
-## React Compiler
+## 📌 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Listagem de produtos
+- Página individual de cada produto
+- Rotas dinâmicas com React Router
+- Consumo de API
+- Página de contato
 
-## Expanding the ESLint configuration
+## 🌐 API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ranek API:
+
+https://ranekapi.origamid.dev/json/api/produto/
+
+## ▶️ Como executar
+
+```bash
+npm install
+npm run dev
