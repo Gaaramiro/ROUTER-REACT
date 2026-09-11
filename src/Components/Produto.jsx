@@ -31,7 +31,7 @@ function Produto() {
   return (
     <section className={`${styles.produto} animeLeft`}>
       <Head title={produto.nome} description={produto.descricao} />
-      <div>
+      <div className={styles.board}>
         {produto.fotos.map((foto) => (
           <img key={foto.src} src={foto.src} alt={foto.titulo} />
         ))}
