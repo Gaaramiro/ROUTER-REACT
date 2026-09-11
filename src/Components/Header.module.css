@@ -1,5 +1,6 @@
 .header{
   margin-bottom: 2rem;
+
   
 }
 
@@ -27,4 +28,14 @@
 
 .header :global(.active),.link:hover{
   background-color: #ddd;
+}
+
+@media (max-width:600px){
+
+
+.header ul{
+  display: flex;
+  justify-content: space-around;
+}
+
 }

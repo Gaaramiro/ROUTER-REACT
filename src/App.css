@@ -65,6 +65,6 @@ animation: loading 1s infinite;
 
 @media(max-width:600px){
   .App{
-    max-width: 30rem;
+    max-width: 25rem;
   }
 }
