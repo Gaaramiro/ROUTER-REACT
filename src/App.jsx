@@ -15,7 +15,7 @@ function App() {
         <Header />
         <div className="content">
           <Routes>
-            <Route path="/" element={<Produtos />} />
+            <Route path="/ROUTER-REACT" element={<Produtos />} />
             <Route path="contato" element={<Contato />} />
             <Route path="produto/:id" element={<Produto />} />
           </Routes>
